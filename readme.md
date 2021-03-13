@@ -14,3 +14,4 @@ pip install -r requirements.txt
 # TODO:
 - Empty Cache after run
 - Different File Types
+- Files via Command Line Arguments
