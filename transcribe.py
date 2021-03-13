@@ -7,10 +7,11 @@ import os
 from keys import WIT_KEY
 import time
 
-
+FILE_NAME = "file.mp3"
 client = Wit(WIT_KEY)
 
-sound = AudioSegment.from_mp3("file.mp3")
+
+sound = AudioSegment.from_file(FILE_NAME, FILE_NAME.split(".")[1])
 print("first split round, this might take a while")
 chunks = split_on_silence(sound, min_silence_len=2000,silence_thresh=-30, seek_step=10)
 

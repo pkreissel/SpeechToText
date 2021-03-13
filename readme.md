@@ -7,7 +7,7 @@ Then the chunks are sent to wit and a textfile is exported.
 
 # Install:
 
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 # Usage:
 
