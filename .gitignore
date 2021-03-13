@@ -1,0 +1,5 @@
+cache/
+*.mov
+*.wav
+*.mp3
+__pycache__/
