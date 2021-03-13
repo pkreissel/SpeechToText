@@ -4,11 +4,12 @@ from pydub.silence import split_on_silence
 from joblib import Parallel, delayed
 from tqdm import tqdm
 import os
+from keys import WIT_KEY
 
-WIT_KEY = ""
+
 client = Wit(WIT_KEY)
 
-sound = AudioSegment.from_mp3("file.mp3", format = "mp3")
+sound = AudioSegment.from_mp3("file.mp3")
 chunks = split_on_silence(sound, min_silence_len=2000,silence_thresh=-30)
 
 def chunkexport(chunk, num, level):
