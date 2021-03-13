@@ -1,5 +1,4 @@
 from wit import Wit
-import logging
 from pydub import AudioSegment
 from pydub.silence import split_on_silence
 from joblib import Parallel, delayed
