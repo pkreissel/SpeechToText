@@ -4,3 +4,4 @@ cache/
 *.mp3
 __pycache__/
 keys.py
+output.txt
