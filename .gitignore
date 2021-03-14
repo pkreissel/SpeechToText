@@ -1,6 +1,8 @@
 *.mov
 *.wav
 *.mp3
+*.mp4
+*.m4a
 __pycache__/
 keys.py
 output.txt
