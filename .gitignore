@@ -2,6 +2,8 @@
 *.wav
 *.mp3
 *.mp4
+*.txt
+*.srt
 *.m4a
 __pycache__/
 keys.py

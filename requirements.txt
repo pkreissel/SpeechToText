@@ -2,3 +2,4 @@ pydub
 joblib
 tqdm
 wit
+pytube

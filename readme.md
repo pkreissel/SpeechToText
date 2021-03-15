@@ -7,13 +7,22 @@ Then the chunks are sent to wit and a textfile is exported.
 
 # Install:
 
+download this repo
+cd into it
 pip3 install -r requirements.txt
 
 # Usage:
 
 - Change WIT_KEY to your wit.ai key (free)
-- Put file.mp3 into folder
+- Put files of most audio formats into "input" folder
 - run python transcribe.py
+- output file should be in "output" folder
+
+For most Youtube Videos Youtube already created captions.
+You can download those with yt_captions.py.
+- Create a file input.txt with one Youtube Vid per Line
+- Run python yt_captions.py
+- SRT Files are being create
 
 # TODO:
 - Empty Cache after run
