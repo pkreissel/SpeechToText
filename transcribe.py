@@ -70,7 +70,7 @@ for i, input in enumerate(tqdm(sorted(os.listdir("input")))):
                 ms = sum(timestamps[:i])
                 text += str(int(ms/60000)).zfill(2) + ":" + str(int((ms%60000)/1000)).zfill(2) + "\n"
             text += resp["text"] + "\n"
-            print(text)
+            #print(text)
             return text
         except Exception as e:
             os.remove("cache/" + file)
