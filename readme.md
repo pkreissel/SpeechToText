@@ -6,10 +6,10 @@ This script will iteratively try to cut audio of unlimited size into chunks of a
 Then the chunks are sent to wit and a textfile is exported.
 
 # Install:
-
-download this repo
-cd into it
-pip3 install -r requirements.txt
+- You need Python 3
+- download this repo
+- cd into it
+- pip3 install -r requirements.txt
 
 # Usage:
 
