@@ -30,3 +30,4 @@ You can download those with yt_captions.py.
 - ~~Performance Improvements on first split~~
 - Reuse Info from first split?
 - Files via Command Line Arguments
+- maximize use of rate limit of wit.ai
